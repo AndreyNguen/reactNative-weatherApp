@@ -12,7 +12,7 @@ export default function LoadingScreen() {
     <View style={styles.container}>
       <StatusBar barStyle={"dark-content"} />
       <ActivityIndicator size={"large"} />
-      <Text style={styles.text}>Получение данных...</Text>
+      <Text style={styles.text}>Получение данных геопозиции...</Text>
     </View>
   );
 }
